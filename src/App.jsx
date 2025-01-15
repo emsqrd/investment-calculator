@@ -31,7 +31,6 @@ function App() {
         <Header />
       </div>
       <main>
-        {/* <Calculator calculationValues={calculationValues} onChangeCalculationValues={handleCalculationValueChange} /> */}
         <UserInput userInputValues={userInputValues} onInputChange={handleInputChange} />
         {!inputIsValid && <p className="center">Please enter a duration greater than zero.</p>}
         {inputIsValid && <Result results={userInputValues} />}
