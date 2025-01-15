@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 export default function UserInput({ userInputValues, onInputChange }) {
   return (
     <section id="user-input">
